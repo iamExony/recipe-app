@@ -1,5 +1,9 @@
 import RecipeList from "@/components/recipe-list";
 
+
+export const metadata ={
+  title: 'Recipe List'
+}
 async function fetchListOfRecipes() {
   try{
     const apiResponse = await fetch("https://dummyjson.com/recipes")
